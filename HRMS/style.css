@@ -1,0 +1,188 @@
+body {
+margin : 20px;
+padding : 0;
+font : 73% "Trebuchet MS", verdana, arial, sans-serif;
+color : #666;
+background : #003250 url(img/bgd.png) repeat;
+}
+#container {
+width : 750px;
+border : 5px solid #fff;
+margin-left : auto;
+margin-right : auto;
+padding : 10px;
+color : #666;
+background : #f2f2f5;
+}
+			/*TOP BANNERs*/
+#banner {
+float : left;
+width : 510px;
+height : 160px;
+padding : 0;
+margin-bottom : 15px;
+color : #666;
+background : inherit;
+}
+#bannerb {
+float : right;
+width : 200px;
+margin : 0 0 15px 10px;
+padding : 0;
+color : #666;
+background : #f2f2f5;
+}
+			/*TOP MENU*/
+#navcontainer {
+clear : both;
+width : 100%;
+}
+#navcontainer ul {
+float : left;
+width : 100%;
+padding-left : 0;
+margin-left : 0;
+background : #036;
+color : #fff;
+}
+#navcontainer ul li {
+display : inline;
+}
+#navcontainer ul li a {
+float : left;
+padding : 0.2em 1em;
+text-decoration : none;
+border-right : 1px solid #fff;
+background : #036;
+color : #fff;
+}
+#navcontainer ul li a:hover {
+background : #a1aac9;
+color : #fff;
+}
+#active a:link, #active a:visited, #active a:hover {
+background : #a1aac9;
+color : #fff;
+}
+			/*CENTRE CONTENT*/
+#content {
+padding : 10px;
+margin-left : 190px;
+margin-right : 190px;
+background : inherit;
+color : #666;
+}
+			/*LEFT CONTENT*/
+#sidebar {
+float : left;
+width : 170px;
+margin : 0 0 0 0;
+padding : 10px;
+color : #666;
+background : #f2f2f5;
+}
+			/*LEFT MENU*/
+#menu {
+width : 160px;
+padding : 10px 0 0 0;
+}
+#menu ul {
+margin : 0;
+padding : 0;
+list-style-type : none;
+}
+#menu li {
+margin : 0 0 0.1em 0;
+}
+#menu a {
+display : block;
+width : 140px;
+padding : 0.1em 0.8em;
+text-decoration : none;
+color : #fff;
+background : #003366;
+}
+#menu a:hover {
+background : #a1aac9;
+color : #fff;
+}
+			/*RIGHT CONTENT*/
+#sidebar-b {
+float : right;
+width : 170px;
+margin : 0;
+padding : 10px;
+border-left : 1px solid #999;
+background : #f2f2f5;
+color : #666;
+}
+			/*RIGHT SCROLLBAR*/
+div.scroll {
+overflow : auto;
+height : 15em;
+width : 140px;
+padding : 1ex;
+color : #333;
+background : #f2f2f5;
+border : 1px solid #eee;
+margin : 20px 0 25px 10px;
+}
+			/*FOOTER*/
+#footer {
+clear : both;
+padding : 5px;
+margin-top : 5px;
+color : #bbd2e0;
+background : #003366;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : #eee;
+text-decoration : none;
+}
+#footer a:hover {
+border-bottom : 1px dashed #f2f2f5;
+background : inherit;
+color : #f2f2f5;
+}
+			/*TYPOGRAPHY*/
+h1, h2 {
+margin : 0 0 10px 5px;
+letter-spacing : 3px;
+font-size : 120%;
+color : #003366;
+background : inherit;
+}
+h3 {
+font-size : 110%;
+color : #826c45;
+background : inherit;
+}
+			/*LINKS*/
+a {
+color : #826c45;
+font-weight : bold;
+text-decoration : none;
+background : inherit;
+}
+a:hover {
+color : #697899;
+background : inherit;
+}
+			/*CLASSES*/
+.news {
+font-size : 100%;
+background : inherit;
+color : #333;
+}
+.sitename {
+font-size : 180%;
+margin : 0 0 10px 0;
+color : #826c45;
+background : inherit;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
