@@ -21,10 +21,7 @@
     <ul id="navlist">
       <li id="active"><a href="index.php" id="current">Home</a></li>
       <li><a href="login.php">Upload CV</a></li>
-      <li><a href="job_list.php">Career@</a></li>
-      <li><a href="job_posting.php">Job Posting</a></li>
-      <li><a href="screening_cv.php">CV Screening</a></li>
-	  <li><a href="check_sorted_cv.php">View Selection</a></li>
+	  <li><a href="check_sorted_cv.php">View</a></li>
     </ul>
   </div>
 
